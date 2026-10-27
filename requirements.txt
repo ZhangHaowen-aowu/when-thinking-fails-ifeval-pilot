@@ -1,0 +1,7 @@
+# Model API client (only for new generation runs)
+openai>=1.30.0,<3
+# Official Google IFEval scorer (bundled copy)
+absl-py
+langdetect
+nltk
+immutabledict

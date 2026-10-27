@@ -1,0 +1,110 @@
+{
+  "strict": {
+    "all": {
+      "n_prompts": 60,
+      "n_constraints": 87,
+      "direct_correct": 69,
+      "cot_correct": 61,
+      "delta_pp": -9.195,
+      "bootstrap_95_ci_pp": [
+        -18.605,
+        0.0
+      ],
+      "prompt_transitions": {
+        "both_pass": 35,
+        "both_fail": 13,
+        "direct_only": 9,
+        "cot_only": 3
+      },
+      "constraint_transitions": {
+        "both_pass": 57,
+        "both_fail": 14,
+        "direct_only": 12,
+        "cot_only": 4
+      }
+    },
+    "clean_subset": {
+      "n_prompts": 55,
+      "n_constraints": 80,
+      "direct_correct": 64,
+      "cot_correct": 58,
+      "delta_pp": -7.5,
+      "bootstrap_95_ci_pp": [
+        -15.789,
+        0.0
+      ],
+      "prompt_transitions": {
+        "both_pass": 34,
+        "both_fail": 12,
+        "direct_only": 7,
+        "cot_only": 2
+      },
+      "constraint_transitions": {
+        "both_pass": 55,
+        "both_fail": 13,
+        "direct_only": 9,
+        "cot_only": 3
+      }
+    },
+    "full_vs_final": {
+      "final_correct": 61,
+      "full_correct": 54,
+      "n_constraints": 87,
+      "delta_pp": -8.046
+    }
+  },
+  "loose": {
+    "all": {
+      "n_prompts": 60,
+      "n_constraints": 87,
+      "direct_correct": 69,
+      "cot_correct": 63,
+      "delta_pp": -6.897,
+      "bootstrap_95_ci_pp": [
+        -16.049,
+        2.222
+      ],
+      "prompt_transitions": {
+        "both_pass": 35,
+        "both_fail": 12,
+        "direct_only": 9,
+        "cot_only": 4
+      },
+      "constraint_transitions": {
+        "both_pass": 58,
+        "both_fail": 13,
+        "direct_only": 11,
+        "cot_only": 5
+      }
+    },
+    "clean_subset": {
+      "n_prompts": 55,
+      "n_constraints": 80,
+      "direct_correct": 64,
+      "cot_correct": 59,
+      "delta_pp": -6.25,
+      "bootstrap_95_ci_pp": [
+        -14.943,
+        2.439
+      ],
+      "prompt_transitions": {
+        "both_pass": 34,
+        "both_fail": 11,
+        "direct_only": 7,
+        "cot_only": 3
+      },
+      "constraint_transitions": {
+        "both_pass": 55,
+        "both_fail": 12,
+        "direct_only": 9,
+        "cot_only": 4
+      }
+    },
+    "full_vs_final": {
+      "final_correct": 63,
+      "full_correct": 65,
+      "n_constraints": 87,
+      "delta_pp": 2.299
+    }
+  }
+}
